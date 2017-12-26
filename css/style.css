@@ -1,0 +1,43 @@
+body {
+    background: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1;
+}
+
+canvas#screen {
+    display: block;
+}
+
+.main-wrapper {
+    position: relative;
+    width: 840px;
+}
+
+.fintech-header {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    opacity: .4;
+    margin: 0;
+    padding: 0;
+}
+
+.score-block {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: block;
+    text-align: center;
+}
+
+.score-sign {
+    margin: 0;
+}
+
+.score-num {
+    margin: 0;
+    font-size: 34px;
+}
